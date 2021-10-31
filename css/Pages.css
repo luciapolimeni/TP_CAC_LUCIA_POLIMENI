@@ -1,0 +1,143 @@
+
+
+/* PAGINA RESEÑA */
+.cards{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top:2%;
+    padding-left: 7%;
+    padding-right: 3%;
+    margin: auto;
+    justify-content: center;
+}
+
+.tarjeta{
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: black 3px solid;
+}
+
+.tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 16px 16px rgb(229, 199, 236);
+}
+.tarjeta img{
+    width: 100%;
+}
+.tarjeta h4{
+    font-size: 1em;
+}
+.tarjeta p{
+   font-size: 1em;  
+}
+
+.tarjeta a{
+    font-size: 2vh;
+    text-decoration: none;
+    color:black
+}
+
+.encabezado{
+    display: flex;
+    flex-wrap:nowrap;
+    position: center;
+    background-color:rgb(229, 199, 236);
+}
+
+.titulo{
+    padding-top: 2.5em;
+    padding-left: 3%;
+}
+.titulo h1{
+    font-size: 1.5rem;
+}
+
+.titulo_foto{
+    padding: 0.2em;
+}
+
+.contenido{
+    background-color: white;
+}
+
+
+/* PAGINA ACERCA DE */
+
+.titulo{
+    padding-bottom: 5%;
+}
+
+.Texto_cont{
+    padding: 5%;
+    background-color: white;
+    text-align: justify;
+}
+
+.Texto_cont_boton{
+    width: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Texto_cont_foto{
+    padding-bottom: 20%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*QUIERO INFO*/
+
+.encabezado_info{
+    display: flex;
+    flex-wrap:nowrap;
+    position: center;
+    background-color: white;
+}
+
+.titulo_info_1{
+    padding-top: 2.5em;
+    padding-left: 8%;
+    color: rgb(205, 80, 233);
+}
+
+.titulo_info_2{
+    padding-top: 2.5em;
+    padding-left: 8%;
+}
+
+.contenedor_form{
+    padding-left: 8%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px
+}
+
+.card_2{
+    position: center;
+    margin-right: 20px ;
+}
+
+input[type=email]{
+    -webkit-appearance: none;
+    appearance: none;
+  
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+  
+    font-family: inherit;
+    font-size: 90%;
+  
+    box-sizing: border-box;
+  }
+  
